@@ -264,7 +264,7 @@ nav button i
     padding:15px 20px;
     transition:all .3s ease-in-out
 }
-.speakers-page header .filter
+.speakers-page header .filter:hover
 {
     background-color:#1d1b1f;
     color:#f4f2f7;
