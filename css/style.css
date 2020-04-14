@@ -263,7 +263,7 @@ nav button i
     border:1px solid aliceblue;
     padding:15px 20px;
     transition:all .3s ease-in-out;
-    background-color:#f4f2f7;
+    background-color:#fff;
     cursor:pointer
 }
 .speakers-page header .filter:hover
