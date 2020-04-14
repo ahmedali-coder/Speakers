@@ -263,13 +263,14 @@ nav button i
     border:1px solid aliceblue;
     padding:15px 20px;
     transition:all .3s ease-in-out;
-    background-color:#f4f2f7
+    background-color:#f4f2f7;
+    cursor:pointer
 }
 .speakers-page header .filter:hover
 {
     background-color:#1d1b1f;
     color:#f4f2f7;
-    border:none
+    border:1px solid #1d1b1f;
 }
 /** speakers **/
 .speakers-page .speakers
