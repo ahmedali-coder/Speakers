@@ -1,0 +1,427 @@
+/* page */
+*
+{
+    box-sizing:border-box
+}
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    padding:25px 50px
+}
+/* framework */
+.container
+{
+    width:1200px
+}
+/* nav */
+nav
+{
+    overflow:hidden
+}
+nav h2
+{
+    margin:0;
+    float:left;
+    width:20%;
+    color:#301f66
+}
+nav h2 a
+{
+    color:inherit;
+    text-decoration:none
+}
+nav ul
+{
+    padding:0;
+    margin:0;
+    float:left;
+    width:60%;
+    text-transform:capitalize;
+    font-weight:bold
+}
+nav ul li
+{
+    list-style:none;
+    display:inline-block;
+    width:15%
+}
+nav ul li a
+{
+    color:inherit;
+    text-decoration:none;
+    transition:all .3s ease-in-out
+}
+nav ul li a:hover,
+nav ul li .active
+{
+    color:#301f66
+}
+nav input,
+nav button
+{
+    float:left;
+    width:10%;
+    background:none;
+    border:none;
+    cursor:pointer
+}
+nav input
+{
+    font-weight:bold;
+    color:#301f66
+}
+nav button
+{
+    position:relative
+}
+nav button i
+{
+    position:absolute;
+    top:3px;
+    right:30px
+}
+/* content */
+.content h1
+{
+    margin:20vh 0 10vh;
+    font-weight:normal;
+    text-align:center;
+    font-size:50px
+}
+.content h1 .border
+{
+    border-bottom:2px solid
+}
+.content h1 .color
+{
+    color:#dc6b53
+}
+.content .search
+{
+    text-align:center
+}
+.content .search div
+{
+    display:inline-block;
+    position:relative
+}
+.content .search div input
+{
+    width:450px;
+    height:45px;
+    padding:10px 10px 10px 40px;
+    border:none;
+    box-shadow:3px 3px 13px -4px
+}
+.content .search div i
+{
+    position:absolute;
+    top:15px;
+    left:9px;
+    border-right:1px solid #767676;
+    padding-right:5px
+}
+.content .search button
+{
+    border:none;
+    height:45px;
+    width:125px;
+    background-color:#1d1b1f;
+    color:rgb(229, 226, 226);
+    margin-left:-5px;
+    cursor:pointer;
+    box-shadow:3px 3px 13px -4px #000
+}
+.content .background
+{
+    overflow:hidden;
+    height:45vh;
+    margin-top:-22px
+}
+.content .background .first-part,
+.content .background .middle-part
+{
+    width:20%;
+    float:left;
+    height:100%
+}
+.content .background .first-part .re-violet,
+.content .background .first-part .re-orange
+{
+    height:9vh;
+    width:100%;
+    display:inline-block;
+    vertical-align:bottom
+}
+.content .background .first-part .re-violet
+{
+    background-color:#301f66
+}
+.content .background .first-part .re-orange
+{
+    background-color:#f25024
+}
+.content .background .first-part .first-yellow
+{
+    display:inline-block;
+    width:100%;
+    height:27vh;
+    background-color:#f7b408;
+    vertical-align:bottom
+}
+.content .background .middle-part .blue,
+.content .background .middle-part .rose
+{
+    width:50%;
+    height:100%;
+    float:left
+}
+.content .background .middle-part .blue
+{
+    background-color:#6054f8
+}
+.content .background .middle-part .rose
+{
+    background-color:#fccfd6
+}
+.content .background .last-part
+{
+    width:60%;
+    height:45vh;
+    float:left;
+    position:relative;
+    z-index:-1
+}
+.content .background .last-part .green,
+.content .background .last-part .second-yellow
+{
+    width:50%;
+    height:100%;
+    float:left
+}
+.content .background .last-part .green
+{
+    background-color:#0fadab
+}
+.content .background .last-part .second-yellow
+{
+    background-color:#f7b408
+}
+.content .background .last-part .cir-violet,
+.content .background .last-part .white
+{
+    position:absolute;
+    width:35%;
+    height:35vh;
+    border-radius:50%;
+    top:5vh;
+    overflow:hidden
+}
+.content .background .last-part .cir-violet
+{
+    background-color:#301f66;
+    left:22%
+}
+.content .background .last-part .white
+{
+    right:22%;
+    background-color:#fff
+}
+.content .background .last-part .white span
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:50%;
+    background-color:#f25024;
+    right:60%
+}
+/**** speaker page ****/
+/*** speaker page content ***/
+.speakers-page
+{
+    overflow:hidden
+}
+/** header **/
+.speakers-page header
+{
+    overflow:hidden;
+    margin:75px 0
+}
+.speakers-page header h1
+{
+    font-weight:normal;
+    text-transform:capitalize;
+    float:left;
+    margin:9px 0
+}
+.speakers-page header .filter
+{
+    float:right;
+    font-size:18px;
+    text-transform:capitalize;
+    border:1px solid aliceblue;
+    padding:15px 20px;
+    transition:all .3s ease-in-out
+}
+.speakers-page header .filter
+{
+    background-color:#1d1b1f;
+    color:#f4f2f7;
+    border:none
+}
+/** speakers **/
+.speakers-page .speakers
+{
+    overflow:hidden
+}
+/* online */
+.speakers-page .speakers .online
+{
+    float:left;
+    overflow:hidden;
+    width:45%;
+    margin-right:5%
+}
+.speakers-page .speakers .online h4
+{
+    text-transform:capitalize;
+    border-bottom:1px solid aliceblue;
+    padding-bottom:15px;
+    margin-right:5%
+}
+.speakers-page .speakers .online .speaker
+{
+    width:45%;
+    float:left;
+    margin-right:5%;
+    text-align:center;
+    color:#fff;
+    margin-bottom:15px;
+    cursor:pointer
+}
+.speakers-page .speakers .online .speaker .details
+{
+    height:335px;
+    padding:20px 5px 0;
+    overflow:hidden;
+    transition:all .3s ease-in-out
+}
+.speakers-page .speakers .online .speaker:nth-child(2) .details
+{
+    background-color:#301f66;
+}
+.speakers-page .speakers .online .speaker:nth-child(3) .details
+{
+    background-color:#f7b408;
+}
+.speakers-page .speakers .online .speaker:nth-child(4) .details
+{
+    background-color:#0fadab;
+}
+.speakers-page .speakers .online .speaker:last-child .details
+{
+    background-color:#e9e7eb;
+}
+.speakers-page .speakers .online .speaker h3
+{
+    margin:0
+}
+.speakers-page .speakers .online .speaker span
+{
+    font-size:15px;
+    text-transform:capitalize;
+    display:block
+}
+.speakers-page .speakers .online .speaker img
+{
+    width:215px;
+    margin-top:25px
+}
+.speakers-page .speakers .online .speaker .details:hover
+{
+    opacity:.5
+}
+.speakers-page .speakers .online .speaker .info
+{
+    color:#767676;
+    overflow:hidden;
+    margin:20px 0
+}
+.speakers-page .speakers .online .speaker .info div
+{
+    float:left;
+    width:50%;
+    text-align:left;
+    font-size:20px
+}
+.speakers-page .speakers .online .speaker .info div i
+{
+    background-color:#f4f2f7;
+    padding:5px;
+    border-radius:5px
+}
+/* at-request */
+.speakers-page .speakers .at-request
+{
+    margin-right:5%;
+    float:left;
+    width:45%
+}
+.speakers-page .speakers .at-request h4
+{
+    border-bottom:1px solid aliceblue;
+    padding-bottom:15px;
+    margin-bottom:0
+}
+.speakers-page .speakers .at-request .agent
+{
+    padding:30px 0;
+    overflow:hidden;
+    border-bottom:1px solid aliceblue
+}
+.speakers-page .speakers .at-request .agent img
+{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    float:left
+}
+.speakers-page .speakers .at-request .agent:first-of-type img
+{
+    background-color:#301f66
+}
+.speakers-page .speakers .at-request .agent:nth-of-type(2) img
+{
+    background-color:#f7b408
+}
+.speakers-page .speakers .at-request .agent:nth-of-type(3) img
+{
+    background-color:#0fadab
+}
+.speakers-page .speakers .at-request .agent:last-of-type img
+{
+    background-color:#e9e7eb
+}
+.speakers-page .speakers .at-request .agent h5
+{
+    margin:5px 30px;
+    float:left;
+    line-height:1.5;
+    text-transform:capitalize
+}
+.speakers-page .speakers .at-request .agent h5 span
+{
+    font-weight:normal;
+    margin-top:5px;
+    color:#a7a7a7
+}
+.speakers-page .speakers .at-request .agent a
+{
+    font-weight:bold;
+    font-size:15px;
+    text-decoration:none;
+    color:#6054f8;
+    float:right;
+    margin:13px 0
+}
